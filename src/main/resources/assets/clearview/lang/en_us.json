@@ -1,0 +1,15 @@
+{
+
+  "clearview.midnightconfig.title": "Clear View",
+  "clearview.midnightconfig.DarknessEffect": "Darkness effect",
+  "clearview.midnightconfig.DarknessEffect.tooltip": "Toggles the darkness effect.",
+
+  "clearview.midnightconfig.BlindnessEffect": "Blindness effect",
+  "clearview.midnightconfig.BlindnessEffect.tooltip": "Toggles the Blindness effect.",
+
+  "clearview.midnightconfig.NauseaEffect": "Nausea effect",
+  "clearview.midnightconfig.NauseaEffect.tooltip": "Toggles the Blindness effect.",
+
+  "clearview.midnightconfig.FogEnabled": "Is fog enabled?",
+  "clearview.midnightconfig.FogEnabled.tooltip": "Toggles the fog effect [RESTART REQUIRED] no = no fog"
+}
