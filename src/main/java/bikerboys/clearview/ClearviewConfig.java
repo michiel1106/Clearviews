@@ -11,4 +11,5 @@ public class ClearviewConfig extends MidnightConfig {
     @Entry(category = CLEARVIEW) public static boolean BlindnessEffect = true;
     @Entry(category = CLEARVIEW) public static boolean NauseaEffect = true;
     @Entry(category = CLEARVIEW) public static boolean FogEnabled = false;
+    @Entry(category = CLEARVIEW) public static boolean PortalOverlayDisabled = true;
 }
