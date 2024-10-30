@@ -33,10 +33,10 @@ public class portaloverlay {
      * @reason d
      */
 
-    @Inject(method = "renderNauseaOverlay", at = @At("HEAD"), cancellable = true)
-    private void renderNauseaOverlay(DrawContext context, float nauseaStrength, CallbackInfo ci) {
-        if (ClearviewConfig.PortalOverlayDisabled) {
-            ci.cancel();
-        }
-    }
+   // @Inject(method = "renderNauseaOverlay", at = @At("HEAD"), cancellable = true)
+   // private void renderNauseaOverlay(DrawContext context, float nauseaStrength, CallbackInfo ci) {
+   //     if (ClearviewConfig.PortalOverlayDisabled) {
+   //         ci.cancel();
+   //     }
+   // }
 }

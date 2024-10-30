@@ -10,6 +10,13 @@
   "clearview.midnightconfig.NauseaEffect": "Nausea effect",
   "clearview.midnightconfig.NauseaEffect.tooltip": "Toggles the Blindness effect.",
 
-  "clearview.midnightconfig.FogEnabled": "Is fog enabled?",
-  "clearview.midnightconfig.FogEnabled.tooltip": "Toggles the fog effect [RESTART REQUIRED] no = no fog"
+  "clearview.midnightconfig.FogStart": "Fog Start",
+  "clearview.midnightconfig.FogStart.tooltip": "Fog start sets distance; a larger gap to fog end smooths the fog gradient.",
+
+  "clearview.midnightconfig.FogEnd": "Fog End",
+  "clearview.midnightconfig.FogEnd.tooltip": "Fog End sets furthest distance; a larger gap to fog start smooths the fog gradient.",
+
+
+  "clearview.midnightconfig.PortalOverlayDisabled": "Portal overlay disabled?",
+  "clearview.midnightconfig.PortalOverlayDisabled.tooltip": "If yes means that there wont be an nether portal overlay."
 }
