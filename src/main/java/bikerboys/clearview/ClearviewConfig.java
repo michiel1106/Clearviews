@@ -15,5 +15,8 @@ public class ClearviewConfig extends MidnightConfig {
 
     @Entry(category = CLEARVIEW) public static boolean FogDisabled = true;
 
+    @Entry(category = CLEARVIEW) public static float fogStart = 1000.0F;
+    @Entry(category = CLEARVIEW) public static float fogEnd = 1000.0F;
+
 
 }
