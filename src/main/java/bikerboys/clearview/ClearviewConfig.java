@@ -12,8 +12,10 @@ public class ClearviewConfig extends MidnightConfig {
     @Entry(category = CLEARVIEW) public static boolean NauseaEffect = true;
 
     @Entry(category = CLEARVIEW) public static boolean PortalOverlayDisabled = true;
+    @Entry(category = CLEARVIEW) public static boolean RemoveSpyglassBorder = true;
+    @Entry(category = CLEARVIEW) public static boolean ApplyFog = true;
 
 
-    @Entry(category = CLEARVIEW) public static float FogStart = 1000.0F;
-    @Entry(category = CLEARVIEW) public static float FogEnd = 1000.0F;
+    @Entry(category = CLEARVIEW) public static float fogStart = 1000.0F;
+    @Entry(category = CLEARVIEW) public static float fogEnd = 1000.0F;
 }
