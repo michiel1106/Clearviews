@@ -8,12 +8,19 @@
   "clearview.midnightconfig.BlindnessEffect.tooltip": "Toggles the Blindness effect.",
 
   "clearview.midnightconfig.NauseaEffect": "Nausea effect",
-  "clearview.midnightconfig.NauseaEffect.tooltip": "Toggles the Blindness effect.",
+  "clearview.midnightconfig.NauseaEffect.tooltip": "Toggles the Nausea effect.",
 
-  "clearview.midnightconfig.FogDisabled": "Fog Disabled?",
-  "clearview.midnightconfig.FogDisabled.tooltip": "Yes = no fog, no = normal vanilla fog [RESTART REQUIRED]",
+  "clearview.midnightconfig.FogDisabled": "Apply fog",
+  "clearview.midnightconfig.FogDisabled.tooltip": "If enabled applies the fog you specified below",
 
+  "clearview.midnightconfig.fogStart": "Fog Start",
+  "clearview.midnightconfig.fogStart.tooltip": "Fog start sets distance; a larger gap to fog end smooths the fog gradient.",
 
+  "clearview.midnightconfig.fogEnd": "Fog End",
+  "clearview.midnightconfig.fogEnd.tooltip": "Fog End sets furthest distance; a larger gap to fog start smooths the fog gradient.",
+
+  "clearview.midnightconfig.RemoveSpyglassBorder": "Remove Spyglass overlay",
+  "clearview.midnightconfig.RemoveSpyglassBorder.tooltip": "Removes the screen becoming entirely black and removes the spyglass texture.",
 
   "clearview.midnightconfig.PortalOverlayDisabled": "Portal overlay disabled?",
   "clearview.midnightconfig.PortalOverlayDisabled.tooltip": "If yes means that there wont be an nether portal overlay."

@@ -25,6 +25,7 @@ public class ExampleClientMixin  {
     private static void alwaysSpectatorFog(Camera camera, BackgroundRenderer.FogType fogType, Vector4f color, float viewDistance, boolean thickenFog, float tickDelta, CallbackInfoReturnable<Fog> cir) {
         // Force spectator fog settings
         FogShape fogShape = FogShape.SPHERE;
+        if (ClearviewConfig.FogDisabled)
         cir.setReturnValue(new Fog(fogStart, fogEnd, fogShape, color.x, color.y, color.z, color.w));
 
     }
