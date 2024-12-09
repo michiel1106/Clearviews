@@ -23,5 +23,13 @@
   "clearview.midnightconfig.RemoveSpyglassBorder.tooltip": "Removes the screen becoming entirely black and removes the spyglass texture.",
 
   "clearview.midnightconfig.PortalOverlayDisabled": "Portal overlay disabled?",
-  "clearview.midnightconfig.PortalOverlayDisabled.tooltip": "If yes means that there wont be an nether portal overlay."
+  "clearview.midnightconfig.PortalOverlayDisabled.tooltip": "If yes means that there wont be an nether portal overlay.",
+
+  "key.category.clearview": "Clearview",
+  "key.clearview.nausea": "Nausea",
+  "key.clearview.darkness": "Darkness",
+  "key.clearview.blindness": "Blindness",
+  "key.clearview.fog": "Fog",
+  "key.clearview.spyglass": "Spyglass",
+  "key.clearview.portal": "Portal Overlay"
 }
