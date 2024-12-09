@@ -4,6 +4,8 @@ import eu.midnightdust.lib.config.MidnightConfig;
 
 public class ClearviewConfig extends MidnightConfig {
 
+
+
     public static final String CLEARVIEW = "clearview";
 
 
