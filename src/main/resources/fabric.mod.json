@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/mod/clearviews",
-		"sources": "https://github.com/michiel1106/Clearviews/tree/master"
+		"sources": "https://github.com/michiel1106/Clearviews/tree/master",
 		"issues": "https://github.com/michiel1106/Clearviews/issues"
 	},
 	"license": "CC0-1.0",
