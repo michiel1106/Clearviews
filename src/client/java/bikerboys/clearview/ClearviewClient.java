@@ -91,33 +91,33 @@ public class ClearviewClient implements ClientModInitializer {
 				if (darkness.wasPressed()) {
 					ClearviewConfig.DarknessEffect = !ClearviewConfig.DarknessEffect;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove darkness is now " + ClearviewConfig.DarknessEffect));
+					minecraftClient.player.sendMessage(Text.of("Remove darkness is now " + ClearviewConfig.DarknessEffect), true);
 				}
 				if (blindness.wasPressed()) {
 					ClearviewConfig.BlindnessEffect = !ClearviewConfig.BlindnessEffect;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove blindness is now " + ClearviewConfig.BlindnessEffect));
+					minecraftClient.player.sendMessage(Text.of("Remove blindness is now " + ClearviewConfig.BlindnessEffect), true);
 				}
 				if (nausea.wasPressed()) {
 					ClearviewConfig.NauseaEffect = !ClearviewConfig.NauseaEffect;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove nausea is now " + ClearviewConfig.NauseaEffect));
+					minecraftClient.player.sendMessage(Text.of("Remove nausea is now " + ClearviewConfig.NauseaEffect), true);
 				}
 				if (fog.wasPressed()){
 					ClearviewConfig.FogDisabled = !ClearviewConfig.FogDisabled;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove fog is now " + ClearviewConfig.FogDisabled));
+					minecraftClient.player.sendMessage(Text.of("Remove fog is now " + ClearviewConfig.FogDisabled), true);
 				}
 
 				if (portal.wasPressed()){
 					ClearviewConfig.PortalOverlayDisabled = !ClearviewConfig.PortalOverlayDisabled;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove portal overlay is now " + ClearviewConfig.PortalOverlayDisabled));
+					minecraftClient.player.sendMessage(Text.of("Remove portal overlay is now " + ClearviewConfig.PortalOverlayDisabled), true);
 				}
 				if (spyglass.wasPressed()){
 					ClearviewConfig.RemoveSpyglassBorder = !ClearviewConfig.RemoveSpyglassBorder;
 					ClearviewConfig.write(MOD_ID);
-					minecraftClient.player.sendMessage(Text.of("Remove spyglass border is now " + ClearviewConfig.RemoveSpyglassBorder));
+					minecraftClient.player.sendMessage(Text.of("Remove spyglass border is now " + ClearviewConfig.RemoveSpyglassBorder), true);
 				}
 
 
